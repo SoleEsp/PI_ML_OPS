@@ -12,10 +12,6 @@ def startup():
     df_hulu_ETL = pd.read_csv('./dataset_ETL/hulu_ETL.csv')
     df_netflix_ETL = pd.read_csv('./dataset_ETL/netflix_ETL.csv')
 
-@app.get("/saludar")
-def saludar():
-    return {"mensaje": "Hola mundo"}
-
 @app.get("/get_max_duration/({anio},{plataforma},{min_o_season})")
 async def get_max_duration_1(year: int, platform: str, duration_type: str):
     max_duration_movie = get_max_duration(year, platform, duration_type)
