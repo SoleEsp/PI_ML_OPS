@@ -25,5 +25,5 @@ async def get_count_platform_2(platform: str):
 @app.get('/get_actor/({plataforma},{anio})')
 async def get_actor_3(platform: str, year: int):
     most_frequent_actor = get_actor(platform, year)
-    return {'El actor que mas se repite': most_frequent_actor}
+    return { most_frequent_actor}
     
