@@ -87,6 +87,8 @@ Archivos globales:
 
     + main.py (Estructura de API)
 
+    + link_APP.txt (contiene el link de la app a datespace)
+    
 
 <br/>
 
