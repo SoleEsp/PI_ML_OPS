@@ -16,6 +16,11 @@ dataframe = {
         'Hulu': df_hulu_ETL
     }    
 
+@app.get("/")
+def presentacion():
+    return "Proyecto Individual 01 - Espiritu, Soledad. Gracias por testear mi api!"
+
+
 @app.get("/get_max_duration/({anio},{plataforma},{min_o_season})")
 async def get_max_duration_1(year: int, platform: str, duration_type: str):
     
