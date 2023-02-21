@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import pandas as pd
 
-app = FastAPI()
+app = FastAPI(title="Mi aplicación personalizada")
 
 df_amazon_prime_ETL = pd.read_csv('./dataset_ETL/amazon_prime_ETL.csv')
 df_disney_plus_ETL = pd.read_csv('./dataset_ETL/disney_plus_ETL.csv')
@@ -17,9 +17,8 @@ dataframe = {
     }    
 
 @app.get("/")
-def presentacion():
-    return "Proyecto Individual 01 - Espiritu, Soledad. Gracias por testear mi api!"
-
+async def root():
+    return {"message": "Proyecto Individual 01 - Espiritu, Soledad. Gracias por testear mi api!"}
 
 @app.get("/get_max_duration/({anio},{plataforma},{min_o_season})")
 async def get_max_duration_1(year: int, platform: str, duration_type: str):
