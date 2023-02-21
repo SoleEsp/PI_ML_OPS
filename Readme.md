@@ -12,7 +12,7 @@
 
 ## Contexto
 
-Este es un proyecto el cual se trabaja sobre archivos en csv y json, luego se hace un EDA y ETL (solo a los fines de este proyecto), para luego levantarlo en una API hecha por fastAPI
+Este es un proyecto el cual se trabaja sobre archivos en csv y parquet, luego se hace un EDA y ETL (solo a los fines de este proyecto), para luego levantarlo en una API hecha por fastAPI
 
 ## Introducción
 
@@ -25,7 +25,7 @@ Soy Soledad Espiritu, en esta oportunidad estoy realizando este proyecto, como p
 
 Este proyecto tiene como objetivo realizar una ingestión de datos desde diversas fuentes, aplicar transformaciones pertinentes y hacer los datos limpios disponibles para su consulta a través de una API construida en un entorno virtual dockerizado.
 
-Los datos serán proporcionados en diferentes formatos, como archivos CSV, JSON y PARQUET. Para asegurar que los datos sean precisos y útiles, se realizará un análisis exploratorio de datos (EDA) para cada conjunto de datos. Luego, los conjuntos de datos se relacionarán entre sí para permitir el acceso a la información a través de consultas a la API.
+Los datos serán proporcionados en diferentes formatos, como archivos CSV o PARQUET. Para asegurar que los datos sean precisos y útiles, se realizará un análisis exploratorio de datos (EDA) para cada conjunto de datos. Luego, los conjuntos de datos se relacionarán entre sí para permitir el acceso a la información a través de consultas a la API.
 
  La API permitirá a los usuarios realizar consultas y acceder a los datos limpios que se han procesado y almacenado en el sistema.
 <br/>
