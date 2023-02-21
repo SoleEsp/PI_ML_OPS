@@ -8,7 +8,7 @@
 </p>
 <hr>  
 
-## **PROYECTO INDIVIDUAL Nº1 para Henry_ Febrero 2023 _ Data Engineering**
+## **PROYECTO INDIVIDUAL Nº1 para Henry_ Febrero 2023**
 
 ## Contexto
 
