@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import pandas as pd
 
-app = FastAPI(title="Mi aplicación personalizada")
+app = FastAPI()
 
 df_amazon_prime_ETL = pd.read_csv('./dataset_ETL/amazon_prime_ETL.csv')
 df_disney_plus_ETL = pd.read_csv('./dataset_ETL/disney_plus_ETL.csv')
