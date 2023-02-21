@@ -15,7 +15,9 @@ dataframe = {
         'Disney': df_disney_plus_ETL,
         'Hulu': df_hulu_ETL
     }    
-
+#Para mejorar el rendimiento y evitar problemas de tiempo de respuesta en la ejecución de consultas, 
+# se trabajó con cada archivo .csv por separado durante el proceso de ETL. De esta manera, 
+# se evitó que el procesamiento de grandes volúmenes de datos en un solo archivo afecte el rendimiento de la API.
 @app.get("/")
 async def root():
     return {"message": "Proyecto Individual 01 - Espiritu, Soledad. Gracias por testear mi api!"}
