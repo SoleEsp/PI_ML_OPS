@@ -8,7 +8,7 @@
 </p>
 <hr>  
 
-## **PROYECTO INDIVIDUAL Nº1 para Henry_ Febrero 2023**
+## **PROYECTO INDIVIDUAL Nº1 para Henry**
 
 ## Contexto
 
